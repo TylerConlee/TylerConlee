@@ -725,6 +725,9 @@ header.navigation {
     max-width: 35em;
     text-align: center; }
 
+article {
+  padding: 0 2em; }
+
 body {
   margin: 0;
   background-color: #eee; }
