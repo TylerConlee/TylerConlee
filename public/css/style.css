@@ -658,6 +658,130 @@ header.navigation {
         cursor: not-allowed;
         opacity: 0.5; }
 
+.grid-items::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.grid-items .grid-item {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: #6b83a6;
+  border-bottom: 9px solid #fff;
+  border-left: 4.5px solid #fff;
+  border-right: 4.5px solid #fff;
+  border-top: 0;
+  cursor: pointer;
+  float: left;
+  height: 14em;
+  overflow: hidden;
+  outline: none;
+  padding: 2em;
+  text-align: center;
+  text-decoration: none;
+  width: 100%; }
+  @media screen and (min-width: 53.75em) {
+    .grid-items .grid-item {
+      width: 33.33333%; } }
+  .grid-items .grid-item:nth-child(1) {
+    background-color: #6b83a6;
+    box-shadow: inset 0px 0px 1px 2px #536a8b; }
+    .grid-items .grid-item:nth-child(1):focus,
+    .grid-items .grid-item:nth-child(1):hover {
+      background-color: #536a8b;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: cover; }
+  .grid-items .grid-item:nth-child(2) {
+    background-color: #3581A5;
+    box-shadow: inset 0px 0px 1px 2px #29637e; }
+    .grid-items .grid-item:nth-child(2):focus,
+    .grid-items .grid-item:nth-child(2):hover {
+      background-color: #29637e;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: cover; }
+  .grid-items .grid-item:nth-child(3) {
+    background-color: #5FBEBE;
+    box-shadow: inset 0px 0px 1px 2px #44a6a6; }
+    .grid-items .grid-item:nth-child(3):focus,
+    .grid-items .grid-item:nth-child(3):hover {
+      background-color: #44a6a6;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: cover; }
+  .grid-items .grid-item:nth-child(4) {
+    background-color: #98C79A;
+    box-shadow: inset 0px 0px 1px 2px #77b57a; }
+    .grid-items .grid-item:nth-child(4):focus,
+    .grid-items .grid-item:nth-child(4):hover {
+      background-color: #77b57a;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: cover; }
+  .grid-items .grid-item:nth-child(5) {
+    background-color: #A7A891;
+    box-shadow: inset 0px 0px 1px 2px #909175; }
+    .grid-items .grid-item:nth-child(5):focus,
+    .grid-items .grid-item:nth-child(5):hover {
+      background-color: #909175;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: cover; }
+  .grid-items .grid-item:nth-child(6) {
+    background-color: #BDCC97;
+    box-shadow: inset 0px 0px 1px 2px #a7bb75; }
+    .grid-items .grid-item:nth-child(6):focus,
+    .grid-items .grid-item:nth-child(6):hover {
+      background-color: #a7bb75;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: cover; }
+  .grid-items .grid-item:nth-child(7) {
+    background-color: #979EA0;
+    box-shadow: inset 0px 0px 1px 2px #7c8588; }
+    .grid-items .grid-item:nth-child(7):focus,
+    .grid-items .grid-item:nth-child(7):hover {
+      background-color: #7c8588;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: cover; }
+
+.grid-items .grid-item img {
+  display: block;
+  height: 3em;
+  margin-bottom: 1em;
+  margin: auto; }
+
+.grid-items .grid-item h1 {
+  color: white;
+  font-size: 1.3em;
+  margin-bottom: 0.4em; }
+
+.grid-items .grid-item p {
+  line-height: 1.5em;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.7); }
+  @media screen and (min-width: 40em) {
+    .grid-items .grid-item p {
+      max-width: 70%; } }
+
+@media screen and (min-width: 53.75em) {
+  .grid-items .grid-item-big {
+    width: 66.66667%; } }
+
+@media screen and (min-width: 40em) {
+  .grid-items .grid-item-big p {
+    max-width: 60%; } }
+
+.grid-items .grid-item-image {
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png");
+  background-color: #6b83a6;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .footer {
   background: #40526b;
   padding: 3em 1.618em;
