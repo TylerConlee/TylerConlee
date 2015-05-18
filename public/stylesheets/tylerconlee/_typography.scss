@@ -110,7 +110,10 @@ article.type-system-slab {
       text-transform: uppercase;
     }
   }
-
+  i.tile {
+    color: #fff;
+    font-size:2em;
+  }
   a.read-more {
     display: inline-block;
     font-family: $serif;
