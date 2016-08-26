@@ -1,2 +1,0 @@
-NODE_ENV=production forever start index.js
-NODE_ENV=production forever start -c "nodemon --exitcrash ../bin/www"
