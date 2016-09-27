@@ -6,9 +6,9 @@ import (
 	"flag"
 	"log"
 	"net/http"
-
+	"nrmux"
+	
 	"github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/_integrations/nrmux"
 )
 
 func main() {
