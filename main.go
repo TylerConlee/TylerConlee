@@ -30,5 +30,5 @@ func main() {
 }
 
 func HomeHandler(w http.ResponseWriter, req *http.Request) {
-	fmt.Printf("Hello world")
+	fmt.Printf("Hello world - This is a site")
 }
