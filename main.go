@@ -26,7 +26,7 @@ func main() {
 	r := nrmux.New(app)
 	r.HandleFunc("/", HomeHandler)
 	// Bind to a port and pass our router in
-	log.Fatal(http.ListenAndServe(":8000", r))
+	log.Fatal(http.ListenAndServe(":8080", r))
 }
 
 func HomeHandler(w http.ResponseWriter, req *http.Request) {
