@@ -15,7 +15,7 @@ func main() {
 	var nrkey string
 	var nrappname string
 	flag.StringVar(&nrkey, "nrkey", "null", "New Relic License Key")
-	flag.StringVar(&nrappname, "nrappname", "Go Application", "New Relic Application Name")
+	flag.StringVar(&nrappname, "nrappname", "TylerConlee.com", "New Relic Application Name")
 	flag.Parse()
 
 	config := newrelic.NewConfig(nrappname, nrkey)
